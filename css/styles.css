@@ -1,0 +1,43 @@
+:root {
+  --color-main-red: #ff3839;
+  --color-black-202020: #202020;
+  --color-gray-background: #f8f8f8;
+  --color-light-red: #333335;
+  --color-light-black: #696969;
+  --background-main: #ffffff;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-black-202020);
+  background-color: var(--background-main);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
