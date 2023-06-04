@@ -41,3 +41,57 @@ button {
   font-family: inherit;
   cursor: pointer;
 }
+.container {
+  width: 100%;
+  max-width: 1203px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.header {
+  background: var(--color-black-202020);
+  
+}
+.header-logo {
+  font-family: 'Inter';
+font-weight: 600;
+font-size: 24px;
+line-height: calc(29/24);
+color: var(--background-main);
+display: flex;
+align-items: center;
+}
+.header-nav {
+
+}
+.heder-nav-list {
+  display: flex;
+  gap: 40px;
+}
+.header-nav-link {
+font-size: 16px;
+line-height: calc(24/16);
+letter-spacing: 0.03em;
+color: var(--background-main);
+padding-top: 36px;
+padding-bottom: 36px;
+display: block;
+}
+.header-btn {
+
+font-size: 16px;
+line-height: calc(24/16);
+letter-spacing: 0.03em;
+color: var(--background-main);
+background-color: var(--color-main-red);
+min-width: 128px;
+height: 44px;
+border: none;
+border-radius: 5px;
+}
